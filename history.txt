@@ -1,0 +1,64 @@
+    1  cd /workspace/SOSv1; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/SOSv1; clear
+    4  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    5  cd /workspace/SOSv1; clear
+    6  apt-get update
+    7  apt install nano
+    8  clear
+    9  nano /etc/passwd
+   10  adduser toran
+   11  echo "# sos1929-labs" >> README.md
+   12  git init
+   13  git add README.md
+   14  echo "# sos1920-labs" >> README.md
+   15  git init
+   16  git add README.md
+   17  ls -la
+   18  git add README.md
+   19  ls
+   20  nano goorm.manifest
+   21  rm main.js
+   22  git add goorm.manifest 
+   23  git commint -m "first commit"
+   24  git config -global user.email "nerk1toran@gmail.com" & git config --global user.name "Nerk1"
+   25  git config --global user.email "nerk1toran@gmail.com" & git config --global user.name "Nerk1"
+   26  git commit -m "first commit"
+   27  git remote add origin https://github.com/Nerk1/sos1920-labs.git
+   28  git push -u origin master
+   29  git checkout -b L04
+   30  git add .
+   31  git commit -m "update md"
+   32  git push
+   33  git push -u origin l04
+   34  nano README.md
+   35  git commit -m "update md"
+   36  git push
+   37  git push --set-upstream origin L04
+   38  git push -u origin l04
+   39  git checkout master
+   40  git checkout L04
+   41  node -v+
+   42  node -v
+   43  git checkout master
+   44  npm -v
+   45  git checkout L04
+   46  npm init
+   47  clear
+   48  touch index.js
+   49  ./index.js
+   50  npm start
+   51  npm install cool-ascii-faces
+   52  npm install cool-ascii-faces --save
+   53  npmstart
+   54  npm start
+   55  node index
+   56  touch .gitignore
+   57  git add .
+   58  git commit -m "adding gitignore"
+   59  git push
+   60  npm install express --save
+   61  npm start
+   62  clear
+   63  history
+   64  history > history.txt

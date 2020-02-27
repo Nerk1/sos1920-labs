@@ -1,4 +1,12 @@
 const cool = require("cool-ascii-faces");
+const express = require("express");
 
+var app = express();
 
-console.log(cool());
+app.get("/cool", (request, response) => {
+	response.send("<html>"+cool()+"</html>");
+});
+
+app.listen(80);
+
+console.log("Server ready");
