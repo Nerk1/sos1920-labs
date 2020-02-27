@@ -1,5 +1,5 @@
 # sos1920-labs
-Esto es el repositorio de laboratorios de GitHub
+Esto es el repositorio de L04
 ## subtitulo
 La lista de cosas
 	- Compra
