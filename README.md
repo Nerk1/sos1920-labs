@@ -7,5 +7,5 @@ La lista de cosas
 El codigo de ejemplo es
 
 ```
-console.log("texto");
+console.log("texto")
 ```
